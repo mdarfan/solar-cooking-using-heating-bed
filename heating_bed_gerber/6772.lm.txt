@@ -1,0 +1,80 @@
+Language model created by QuickLM on Fri Mar 30 15:13:02 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 17 words
+
+\data\
+ngram 1=17
+ngram 2=22
+ngram 3=18
+
+\1-grams:
+-1.0414 </s> -0.3010
+-1.0414 <s> -0.2523
+-1.8195 A -0.2944
+-1.2175 ARDOP -0.2374
+-1.8195 BALL -0.2596
+-1.8195 GLASS -0.2596
+-1.8195 GOOD -0.2944
+-1.8195 HELLO -0.2596
+-1.8195 INTRODUCE -0.2944
+-1.8195 JOB -0.2739
+-1.8195 ME -0.2944
+-1.5185 PICK -0.2877
+-1.8195 SING -0.2944
+-1.8195 SONG -0.2596
+-1.5185 THE -0.2877
+-1.5185 UP -0.2877
+-1.8195 YOURSELF -0.2596
+
+\2-grams:
+-0.6021 <s> ARDOP -0.0969
+-1.0792 <s> GOOD 0.0000
+-1.0792 <s> HELLO 0.0000
+-1.0792 <s> INTRODUCE 0.0000
+-0.3010 A SONG 0.0000
+-0.9031 ARDOP </s> -0.3010
+-0.6021 ARDOP PICK 0.0000
+-0.9031 ARDOP SING 0.0000
+-0.3010 BALL </s> -0.3010
+-0.3010 GLASS </s> -0.3010
+-0.3010 GOOD JOB 0.0000
+-0.3010 HELLO </s> -0.3010
+-0.3010 INTRODUCE YOURSELF 0.0000
+-0.3010 JOB ARDOP -0.2430
+-0.3010 ME A 0.0000
+-0.3010 PICK UP 0.0000
+-0.3010 SING ME 0.0000
+-0.3010 SONG </s> -0.3010
+-0.6021 THE BALL 0.0000
+-0.6021 THE GLASS 0.0000
+-0.3010 UP THE 0.0000
+-0.3010 YOURSELF </s> -0.3010
+
+\3-grams:
+-0.4771 <s> ARDOP PICK
+-0.7782 <s> ARDOP SING
+-0.3010 <s> GOOD JOB
+-0.3010 <s> HELLO </s>
+-0.3010 <s> INTRODUCE YOURSELF
+-0.3010 A SONG </s>
+-0.3010 ARDOP PICK UP
+-0.3010 ARDOP SING ME
+-0.3010 GOOD JOB ARDOP
+-0.3010 INTRODUCE YOURSELF </s>
+-0.3010 JOB ARDOP </s>
+-0.3010 ME A SONG
+-0.3010 PICK UP THE
+-0.3010 SING ME A
+-0.3010 THE BALL </s>
+-0.3010 THE GLASS </s>
+-0.6021 UP THE BALL
+-0.6021 UP THE GLASS
+
+\end\
